@@ -1,0 +1,62 @@
+ *{
+  margin:0;
+  padding:0;  
+ }
+ .loginDiv
+{
+    flex-direction: column;
+    width:clamp(393px,100vw,100vw);
+    height:100vh;
+    display: grid;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6231bb33152259.56a17a66e49bd.png");
+    place-items: center;
+    z-index: 100;
+}
+#looginDiv{
+    display:flex;
+    flex-direction: column;
+    width:clamp(393px,40vw,40vw);
+    height:40vh;
+    background-color: #0F1724;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 2vh;
+    opacity: 0.8;
+}
+.inputs{
+    width: 50%;
+    height: auto;
+    border:0;
+    background-color: transparent;
+    outline:none;
+    color:#C6D3E7;
+    margin-left: 0;
+    padding: 7px;
+    
+}
+.label
+{
+    width: 70%;
+    height:auto;
+    padding: 2%;
+    background-color: #1D2636;
+    font-size:90%;
+    color:#11ECE5;
+    border-radius: clamp(7px,0.8vw,0.8vw);
+    border: black  1% solid;
+    margin: 2%;
+}
+#login_signup_Button{
+    margin: 2%;
+    background-color: #11ECE5;
+    color:black;
+    border: 2px solid black;
+    outline: none;
+    height: 5vh;
+    width:13vh;
+    font-size:100%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1.5vh;
+}

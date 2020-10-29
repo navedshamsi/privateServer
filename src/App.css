@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  scrollbar-width: none;
+ 
+}
+::-webkit-scrollbar{
+  display:none
+}
+.homePage{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+ flex-direction: column;
+ background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6231bb33152259.56a17a66e49bd.png");
+
+}
+.homePage button{
+ 
+ margin: 2vw;
+  height: 7vh;
+  width: 7vh;
+ border:none;
+ outline:none;
+ color:#11ECE5;
+ border: 5px black solid;
+ background-color:  transparent ;
+ border-radius: 1vh;
+}

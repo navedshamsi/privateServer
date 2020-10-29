@@ -1,0 +1,18 @@
+.chatsheader{
+    align-self: center;
+    position: fixed;
+    width: clamp(400px,64.5%,64.5%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:#0F1724 ;
+    height: 6vh ;
+    padding:0.7vh;
+    border-radius: 2vh;
+    box-shadow:         0px 10px 9px 0px rgba(0, 0, 0, 0.61);
+}
+.chatsheader p{
+    display: inline;
+    color:#11ECE5;
+    background-color: transparent; 
+}
